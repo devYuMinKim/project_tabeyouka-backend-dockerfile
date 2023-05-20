@@ -13,9 +13,6 @@ RUN a2enmod rewrite
 # Set DocumentRoot to Laravel public directory
 RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
 
-# Apache 설정을 커스텀 설정으로 변경
-# COPY /custom_apache_config.conf /etc/apache2/sites-available/000-default.conf
-
 # 애플리케이션 소스 복사
 COPY . /var/www/html
 
