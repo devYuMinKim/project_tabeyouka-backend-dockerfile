@@ -12,8 +12,8 @@ services:
       - .:/var/www/html
     environment:
       - DB_CONNECTION=mysql
-      - DB_HOST=db
-      - DB_PORT=3306
+      - DB_HOST=https://admin-team5-jkg2alhnyjo60.sel4.cloudtype.app/
+      - DB_PORT=30289
       - DB_DATABASE=team5
       - DB_USERNAME=root
       - DB_PASSWORD=team51234
