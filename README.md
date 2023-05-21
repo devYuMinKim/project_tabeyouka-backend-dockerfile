@@ -7,7 +7,7 @@
 ## 사용법
 1. 도커 이미지를 클론해옵니다.
    ```docker
-    docker pull devyuminkim/team5:latest
+    docker pull devyuminkim/team5:team5-integration
    ```
 2. 도커를 실행합니다.
    ```docker
