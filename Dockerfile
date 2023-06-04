@@ -25,5 +25,8 @@ WORKDIR /var/www/html
 # 라라벨 의존성 설치
 RUN composer install
 
+# 스토리지 폴더의 심볼릭 링크를 생성
+RUN php artisan storage:link
+
 # 포트 열기
 EXPOSE 80
